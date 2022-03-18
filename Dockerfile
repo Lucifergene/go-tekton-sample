@@ -1,3 +1,3 @@
 FROM alpine
 
-ENTRYPOINT echo hello medium
+ENTRYPOINT echo hello v1

@@ -1,3 +1,3 @@
 FROM alpine
 
-ENTRYPOINT echo hello v7
+ENTRYPOINT echo hello v8

@@ -9,7 +9,7 @@ import (
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "Hello, World v20!")
+		fmt.Fprintf(w, "<h1>Hello, World!</h1>")
 	})
 	if os.Getenv("PORT") != "" {
 		port := os.Getenv("PORT")
